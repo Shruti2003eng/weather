@@ -1,0 +1,66 @@
+.sidebar{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    width:250px;
+    top:0px;
+    left:240px;
+    font-size: 40px;
+    padding-left:20px;
+    display: flex;
+    flex-direction: row;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:1420px;
+    background-image: linear-gradient(to right,rgb(249, 228, 187),rgb(115, 108, 252));
+}
+.sidebar.nav{
+    padding:50px 35px;
+    text-align: right;
+
+}
+.sidebar .nav li{ 
+    
+}
+
+
+.sidebar .nav li a{
+    align-items:center;
+    padding: 0px 20px;
+}
+.sidebar .nav li a .ico{
+    margin-right: 10px;
+}
+
+.sidebar .nav li a.on{
+    border-left:2px solid #ea5252;
+    color:#ea5252;
+    line-height:1;
+
+}
+/* HOME PAGE */
+/* .home-page{} */
+/* .home-page .section{} */
+/* .home-page .section .title{} */
+/* .home-page .section .tutors{} */
+.home-page .section .tutors .tutors{ 
+  border: 0px;
+  background: white;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  margin-right: 10px;
+  border-radius: 30px;
+  padding: 0px;
+}
+/* .home-page .section .tutors .tutors:hover{} */
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border:2px solid black;
+    margin:20px;
+    height:300px;
+}
